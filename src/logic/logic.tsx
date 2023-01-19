@@ -1,4 +1,4 @@
-import React, {FC} from "react";
+
 
 
 export interface IProp{
@@ -6,21 +6,22 @@ export interface IProp{
     str:string
 }
 
-export const HighLight =(props: IProp):string| (JSX.Element | string)[]=>{
+export const HighLight =(props:any)=>{
     const {filter, str} =props
     if(!filter) return str
     const regexp=new RegExp(filter, 'ig')
     const match=str.match(regexp)
     if(match){
-        return str.split(regexp).map((s, index, arr)=>{
+        return str.split(regexp).map((s:string, index:number, arr:[])=>{
             if(index< arr.length-1){
                 const c=match.shift()
+
                 return <>{s}<span style={{background: 'yellow'}}>{c}</span></>
             }
             return s
         })
     }
-    return str
+    // return str
 }
 
 
