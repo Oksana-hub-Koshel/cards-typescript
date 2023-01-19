@@ -1,0 +1,30 @@
+.container_cards {
+  width: 30%;
+  /*width: 300px;*/
+  /*white-space: nowrap;*/
+  /*overflow: hidden;*/
+  /*text-overflow: ellipsis;*/
+  margin: 0;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+.image {
+  width: 100%;
+  height: 250px;
+  /*width: 100%;*/
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.descrip_text {
+  width: 100%;
+  height: 60px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+/*# sourceMappingURL=cards.module.css.map */

@@ -1,0 +1,51 @@
+
+
+.foto {
+  width: 100%;
+  height: 200px;
+  position: relative;
+
+}
+
+.description_block {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: -50px;
+  background-color: white;
+  box-shadow: 2px 2px 2px 1px rgba(199, 188, 188, 0.2);
+  position: absolute;
+  display: block;
+  flex-direction: column;
+  align-items: center;
+
+
+
+}
+
+.description_block h2 {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.description {
+  margin: 50px;
+}
+.link_home_block{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  position: absolute;
+  bottom: 0px;
+  margin-bottom: 50px;
+  margin-left: 150px;
+
+}
+.link_home{
+  font-weight: bolder;
+  color: black;
+  text-decoration: none;
+
+
+}

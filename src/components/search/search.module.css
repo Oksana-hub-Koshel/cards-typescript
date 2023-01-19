@@ -1,0 +1,35 @@
+.search_block {
+  display: flex;
+  flex-direction: column;
+}
+
+.search {
+  width: 500px;
+  height: 30px;
+  display: inline-flex;
+  border: aliceblue;
+  box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+  padding: 10px;
+  font-size: 12px;
+  align-items: center;
+}
+
+.search_icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  order: -1;
+  color: darkgrey;
+}
+
+.search_field {
+  width: 500px;
+  border: 0;
+  font-size: 16px;
+}
+
+.search_field:focus {
+  outline: none;
+}
+
+/*# sourceMappingURL=search.module.css.map */

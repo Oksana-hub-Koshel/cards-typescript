@@ -1,0 +1,23 @@
+.container{
+  margin: 50px;
+}
+
+.results_line{
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+hr{
+  color: black;
+  display: block;
+  border: 0.5px solid grey;
+  opacity: 0.3;
+  margin-top: 5px;
+}
+.cont_card{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap:50px;
+  margin-top: 50px;
+  justify-content: center;
+}
